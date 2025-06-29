@@ -1,0 +1,21 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.animado {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  animation: mover 2s infinite alternate;
+}
+
+@keyframes mover {
+  from {
+    transform: translateX(0);
+    color: #007bff;
+  }
+  to {
+    transform: translateX(50px);
+    color: #dc3545;
+  }
+}
