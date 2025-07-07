@@ -8,7 +8,7 @@ ctx.fillRect(0, 0, canvas.width, canvas.height);
 // Texto
 ctx.fillStyle = "#333";
 ctx.font = "18px Arial";
-ctx.fillText("¡Hola desde Canvas!", 50, 40);
+ctx.fillText("¡Canvas!", 50, 40);
 
 // Dibujo simple
 ctx.fillStyle = "lightblue";
